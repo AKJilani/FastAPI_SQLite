@@ -1,0 +1,34 @@
+
+---
+
+## 📄 `.gitignore`
+
+```bash
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+app.db
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE Files
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Environment Variables
+.env
+
+# React Build (if included inside backend)
+build/
+dist/
+node_modules/
