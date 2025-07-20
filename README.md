@@ -53,9 +53,9 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload
 
 🔐 Authentication Flow
-POST /api/v1/users/register : Create User
+POST /api/users/register : Create User
 
-POST /api/v1/users/login : Obtain JWT Token (Bearer)
+POST /api/users/login : Obtain JWT Token (Bearer)
 
 Use the token in Authorization headers:
 
@@ -65,13 +65,13 @@ Edit
 Authorization: Bearer your_token_here
 📑 API Endpoints
 Endpoint	Method	Description
-/api/v1/users/register	POST	Register User
-/api/v1/users/login	POST	Login & get JWT
-/api/v1/items/	POST	Create Item
-/api/v1/items/	GET	Get All Items
-/api/v1/items/{id}	GET	Get Item by ID
-/api/v1/items/{id}	PUT	Update Item by ID
-/api/v1/items/{id}	DELETE	Delete Item by ID
+/api/users/register	POST	Register User
+/api/users/login	POST	Login & get JWT
+/api/items/	POST	Create Item
+/api/items/	GET	Get All Items
+/api/items/{id}	GET	Get Item by ID
+/api/items/{id}	PUT	Update Item by ID
+/api/items/{id}	DELETE	Delete Item by ID
 
 Swagger Docs available at:
 📄 http://127.0.0.1:8000/docs
