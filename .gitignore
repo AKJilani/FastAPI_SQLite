@@ -13,6 +13,7 @@ __pycache__/
 app.db
 
 # Virtual Environment
+.venvFastAPI/
 venv/
 ENV/
 env/
